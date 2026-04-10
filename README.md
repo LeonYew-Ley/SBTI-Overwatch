@@ -1,6 +1,11 @@
-# SBTI 测试（镜像）
+# OWTI(Fork 自 SBTI)
 
-图片和html已拆分
+地址：https://owti.leonyew.space/
 
-地址：https://sbti.unun.dev  
-原作者：[B站@蛆肉儿串儿](https://www.bilibili.com/video/BV1LpDHByET6/)
+作者：[B站@LeonYew](https://space.bilibili.com/8403927)
+
+## 截图预览
+
+![首页](images/screenshot-home.png)
+
+![测试结果](images/screenshot-result.png)
