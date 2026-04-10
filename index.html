@@ -1004,8 +1004,36 @@
   "HHHH": {"code":"MYST","cn":"神秘英雄","intro":"你是“随机英雄”本尊。","desc":"你的维度分布非常跳脱，常规画像很难完整定义你。简单说：你像“神秘英雄”模式本身，风格多变、适配极广、上限看临场。"},
   "DRUNK": {"code":"JUNKRAT","cn":"狂鼠（爆破限定）","intro":"这局就打爆发和快乐！","desc":"你触发了隐藏画像：当你偏好输出位且强烈偏向个人秀操作时，系统会将你归入“狂鼠（爆破限定）”。你追求的是高风险高回报和瞬间改命的爽感。"}
 };
-    const TYPE_IMAGES = {};
-
+    const heroShot = (slug) => `https://s.wordpress.com/mshots/v1/${encodeURIComponent(`https://overwatch.blizzard.com/en-us/heroes/${slug}/`)}?w=1200`;
+    const TYPE_IMAGES = {
+      "CTRL": heroShot('soldier-76'),
+      "ATM-er": heroShot('mercy'),
+      "Dior-s": heroShot('roadhog'),
+      "BOSS": heroShot('reinhardt'),
+      "THAN-K": heroShot('zenyatta'),
+      "OH-NO": heroShot('ana'),
+      "GOGO": heroShot('lucio'),
+      "SEXY": heroShot('widowmaker'),
+      "LOVE-R": heroShot('dva'),
+      "MUM": heroShot('moira'),
+      "FAKE": heroShot('sojourn'),
+      "OJBK": heroShot('winston'),
+      "MALO": heroShot('junkrat'),
+      "JOKE-R": heroShot('reaper'),
+      "WOC!": heroShot('pharah'),
+      "THIN-K": heroShot('hanzo'),
+      "SHIT": heroShot('torbjorn'),
+      "ZZZZ": heroShot('mei'),
+      "POOR": heroShot('symmetra'),
+      "MONK": heroShot('ramattra'),
+      "IMSB": heroShot('wrecking-ball'),
+      "SOLO": heroShot('genji'),
+      "FUCK": heroShot('doomfist'),
+      "DEAD": heroShot('sigma'),
+      "IMFW": heroShot('kiriko'),
+      "MYST": heroShot('tracer'),
+      "JUNKRAT": heroShot('junkrat')
+    };
 
     const NORMAL_TYPES = [
   {
